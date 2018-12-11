@@ -1,6 +1,21 @@
 <template>
     <div class="sentPage">
-      <div class="sentPageTop"></div>
+      <div class="sentPageTop">
+        <em>来自</em>
+        <dl>
+          <dt><img src="./../../static/images/studentHD_03.png"></dt>
+          <dd>张洋</dd>
+        </dl>
+        <dl>
+          <dt><img src="./../../static/images/studentHD_03.png"></dt>
+          <dd>张洋</dd>
+        </dl>
+        <dl>
+          <dt><img src="./../../static/images/studentHD_03.png"></dt>
+          <dd>张洋</dd>
+        </dl>
+        <div class="clear"></div>
+      </div>
       <div class="sentPageContent">
         <el-input type="textarea" :rows="15" placeholder="请输入内容" style=" font-size: 1.5rem; line-height:2em;" v-model="textarea"></el-input>
       </div>

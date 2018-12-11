@@ -19,7 +19,10 @@
               <el-button type="primary" style="float:right; font-size:1.1em; margin:0 0 0 20px; width:100px;">回复</el-button>
               <div class="leaveMessageContent_1">
                 <p>内容内容内容内容内容内容内容内容内容内容</p>
-                <div class="replyBox"></div>
+                <div class="replyBox">
+                  <div class="fastSent"><em>好的</em><em>谢谢</em><em>好的</em></div>
+                  <div class="sentBox">请输入内容</div>
+                </div>
               </div>
             </div>
           </div>
@@ -77,7 +80,7 @@
     .parentsLeaveMessage h2 span{ display:inline-block; background: #ec4242; color: #FFFFFF; margin: 60px 0 0 20px; font-size:30px; height:80px; line-height:80px; border-radius: 5px; padding: 0 50px;}
     /*.leaveMessageBox ul{ height:460px; overflow: hidden; overflow-y: auto; padding: 0 20px;}*/
     /*.leaveMessageBox ul li{ border-bottom: 1px solid #dedede; padding:10px 0; font-size:20px;}*/
-    .parentsLeaveMessage h2 a{ display: block; position: absolute; left: auto;  top:auto; right: 0; bottom: 0; margin: auto; padding: 0 40px; background: #f56e2c; height:70px; line-height: 70px; color: #ffffff; border-radius: 50px; font-size: 1.2em; font-weight: normal;}
+    .parentsLeaveMessage h2 a{ display: block; position: absolute; left: auto;  top:auto; right: 0; bottom: 0; margin: auto; padding: 0 40px; background: #f56e2c; height:60px; line-height: 60px; color: #ffffff; border-radius: 50px; font-size: 1.1em; font-weight: normal;}
     .leaveMessageBoxNew{ background-size:100% 100%;}
     .leaveMessageBoxNew ul{ height:550px; overflow: hidden; overflow-y: auto; padding: 0 20px;}
     .leaveMessageBoxNew ul li{ border-bottom: 1px solid rgba(102, 174, 162, 0.5); padding:20px 0; font-size:20px;}
@@ -86,6 +89,10 @@
     .leaveMessageBoxNew ul li .userMes .userMes_1 img{ width: 100%; height: 100%;}
     .leaveMessageBoxNew ul li .userMes h4{ text-align: center; font-size: 1.2em; padding: 5px 0;}
     .leaveMessageBoxNew ul li .leaveMessageContent_1{ overflow: hidden; background: #f7f4e3; margin: 0 10px; min-height: 105px; border:1px dashed #907c0d; border-radius: 10px; padding:15px; font-size:1.1em;}
+        .leaveMessageBoxNew ul li .leaveMessageContent_1 .replyBox{ background: #cfeeed; padding: 10px; margin: 10px 0 0;}
+        .leaveMessageBoxNew ul li .leaveMessageContent_1 .replyBox .fastSent{ padding: 10px 0;}
+        .leaveMessageBoxNew ul li .leaveMessageContent_1 .replyBox .fastSent em{ background: rgba(179, 214, 213, 0.5); height:50px; line-height: 50px; padding: 0 40px; margin: 0 10px 0 0; display: inline-block; border-radius: 50px; }
+        .leaveMessageBoxNew ul li .leaveMessageContent_1 .replyBox .sentBox{ padding: 10px; height: 80px; background: rgba(179, 214, 213, 0.5);}
     .girlImg{ position: absolute; background: url(./../../static/images/parentImg_03.png) no-repeat scroll center 0; background-size: 100%; width:280px; height: 400px; left: -150px; bottom:6px;}
   }
 
